@@ -63,7 +63,7 @@ export const Price: React.FC<{
     <div className={classes.actions}>
       {typeof price?.actualPrice !== 'undefined' && price?.withQuantity !== '' && (
         <div className={classes.price}>
-          <p>{price?.withQuantity}</p>         
+          <p>{price?.withQuantity}</p>
         </div>
       )}
     </div>
